@@ -17,7 +17,7 @@ function randomize() {
 
 //prettier-ignore
 function App() {
-  const [pirates, setPirates] = React.useState(piratesFile)
+  const [pirates, setPirates] = React.useState([])
 
 const addPirate = (pirate) => {
   pirate.image = "avatar.png";
